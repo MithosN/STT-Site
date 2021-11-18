@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.callusnow {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+  z-index: 100;
+}
+@media only screen and (min-width: 640px) {
+  .callusnow {
+    display: none;
+    visibility: hidden;
+  }
+}
+.ournumber {
+  z-index: 1000;
+  display: none;
+  visibility: hidden;
+}
+@media only screen and (min-width: 640px) {
+  .ournumber {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+  display: block;
+  visibility: visible;
+  }
+}
